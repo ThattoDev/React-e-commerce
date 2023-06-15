@@ -27,7 +27,7 @@ const Login = () => {
       localStorage.setItem("senha", senha);
       navigate("/user");
     } else {
-      alert("Usuário ou senha inválido! Tente novamente.");
+      alert("Usuário ou senha inválido! Por favor tente novamente.");
     }
   };
 
@@ -95,7 +95,7 @@ const Login = () => {
                       </p>
                       <p>
                         <a className="ancoralog" href="#cadastrar">
-                          Ainda não tem cadastro?
+                          Ainda não tem cadastro clique <a className="ancoralog" href="#Cadastro">AQUI!</a>?
                         </a>
                       </p>
                       <div className="d-grid gap-2 mt-3">
